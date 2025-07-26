@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #222;
+            color: white;
+            padding: 20px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .logo span {
+            color: #00aaff;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+
+        nav ul li {
+            margin-left: 25px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #00aaff;
+        }
+
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 80px 10%;
+            background-color: #333;
+            color: white;
+        }
+
+        .hero-text {
+            max-width: 50%;
+        }
+
+        .hero-text h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .hero-text p {
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+
+        .hero-text .btn {
+            padding: 10px 25px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .hero-image img {
+            max-width: 300px;
+            border-radius: 10px;
+        }
+
+        .about {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 60px 10%;
+            background-color: white;
+        }
+
+        .about img {
+            max-width: 300px;
+            border-radius: 10px;
+        }
+
+        .about-text {
+            max-width: 50%;
+            padding-left: 40px;
+        }
+
+        .about-text h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+
+        .about-text p {
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+
+        .about-text .btn {
+            padding: 10px 25px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        @media (max-width: 768px) {
+            .hero,
+            .about {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .hero-text,
+            .about-text {
+                max-width: 100%;
+                padding: 0;
+            }
+        }
+        .contact {
+    background-color: #f9f9f9;
+    padding: 60px 10%;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.contact p {
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: #666;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact input,
+.contact textarea {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    width: 100%;
+}
+
+.contact button {
+    background-color: #007bff;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.contact button:hover {
+    background-color: #0056b3;
+}
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">Online <span>Portfolio</span></div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Me</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Skill</a></li>
+                <li><a href="#">Testimonial</a></li>
+                <li><a href="#">Experience</a></li>
+                <li><a href="#">Works</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Ronit Raj</h1>
+            <p>"Computer Science Student at Arya College of Engineering | Exploring Programming, Technology, and Innovation"| Frontend Developer (HTML, CSS, JS) | C ,C++ & Python Programmer | Tech Creator @BitWise Diaries | CSE'28</p>
+            <a href="#" class="btn">Hire Me</a>
+        </div>
+        <div class="hero-image">
+            <img src="ronitraj.jpg" alt="Profile Picture">
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="about-image">
+            <img src="ronit.jpg" alt="About Picture">
+        </div>
+        <div class="about-text">
+            <h2>ABOUT ME</h2>
+            <p>A passionate frontend developer from India, "Coding my way through the tech universe.".</p>
+            <p>Current Focus: Learning C++ and python Programming Learning Goals: To master the fundamentals of programming and start building real-world applications..</p>
+            <a href="Document1.docx" class="btn">Download Resume</a>
+        </div>
+    </section>
+    <!-- Contact Us Section -->
+<section class="contact" id="contact">
+    <div class="contact-container">
+        <h2>Contact Us</h2>
+        <p>Have a question or want to work together? Fill out the form below:</p>
+        <form action="#" method="post">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</section>
+
+</body>
+
+</html>
