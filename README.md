@@ -27,7 +27,7 @@ The landing page includes:
 
 | Hero Section | About Section | Contact Section |
 |--------------|----------------|-----------------|
-| ![Hero](assets/hero-preview.png) | ![About](assets/about-preview.png) | ![Contact](assets/contact-preview.png) |
+| ![Hero](assets/hero-preview.png) | ![About](assets/about-preview.png) | ![Contact](https://github.com/Ronit049/LANDING-PAGE/blob/main/contact_section.png.png) |
 
 > *(You can replace these images with your own screenshots in an `assets/` folder)*
 
