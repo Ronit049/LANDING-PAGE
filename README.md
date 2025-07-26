@@ -29,13 +29,13 @@ The landing page includes:
 |--------------|----------------|-----------------|
 | ![Hero](https://github.com/Ronit049/LANDING-PAGE/blob/main/hero_section.png.png) | ![About](https://github.com/Ronit049/LANDING-PAGE/blob/main/About_section.png.png) | ![Contact](https://github.com/Ronit049/LANDING-PAGE/blob/main/contact_section.png.png) |
 
- ![DEMO](https://ronit049.github.io/LANDING-PAGE/) 
+
 
 ## 🚀 How to Run the Project
 
 1. Clone the repository  
 ```bash
-git clone https://github.com/yourusername/landing-page-codsoft.git
+git clone https://github.com/Ronit049/LANDING-PAGE.git
 
 
 
