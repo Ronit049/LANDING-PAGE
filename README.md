@@ -29,6 +29,14 @@ The landing page includes:
 |--------------|----------------|-----------------|
 | ![Hero](https://github.com/Ronit049/LANDING-PAGE/blob/main/hero_section.png.png) | ![About](https://github.com/Ronit049/LANDING-PAGE/blob/main/About_section.png.png) | ![Contact](https://github.com/Ronit049/LANDING-PAGE/blob/main/contact_section.png.png) |
 
+## 🌐 Live Preview
+
+👉 **[Click here to visit the live website](https://ronit049.github.io/LANDING-PAGE/)**
+
+<!-- HTML preview for README.md (note: won't render iframe on GitHub) -->
+<a href="https://ronit049.github.io/LANDING-PAGE/" target="_blank">
+  <img src="https://github.com/Ronit049/LANDING-PAGE/blob/main/hero_section.png.png" alt="Landing Page Screenshot" style="width:100%; max-width:800px; border-radius:10px; box-shadow: 0 0 10px rgba(0,0,0,0.2);"/>
+</a>
 
 
 ## 🚀 How to Run the Project
